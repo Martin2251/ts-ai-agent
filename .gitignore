@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment files (NEVER commit your Gemini API key!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs & cache
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
